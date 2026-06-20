@@ -1,0 +1,304 @@
+police_station,junction_name,violations,avg_severity,impact_score,risk_level,recommendation
+Shivajinagar,BTP051 - Safina Plaza Junction,15298,5.540855013727285,84764.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Upparpet,BTP040 - Elite Junction,10718,5.576506810972196,59769.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Upparpet,BTP044 - Sagar Theatre Junction,10049,5.658373967558961,56861.0,CRITICAL,Deploy 3 officers and continuous monitoring
+City Market,BTP082 - KR Market Junction,10109,5.258086853299041,53154.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Shivajinagar,BTP211 - Central Street Junction,5373,5.587381351200447,30021.000000000004,CRITICAL,Deploy 3 officers and continuous monitoring
+Upparpet,BTP058 - Subbanna Junction,4830,5.6861283643892335,27463.999999999996,CRITICAL,Deploy 3 officers and continuous monitoring
+Vijayanagara,BTP020 - Hosahalli Metro Station,4035,5.511771995043371,22240.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Upparpet,BTP057 - Anand Rao Junction,3641,5.371326558637737,19557.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Halasuru Gate,"BTP080 - NR Road, SP Road Junction",3283,5.515686871763631,18108.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Upparpet,BTP045 - Danvanthri Road Junction,3181,5.453316567117259,17347.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Malleshwaram,"BTP001 - 10th Cross, Dr. Rajkumar Road",2812,5.364153627311522,15084.0,CRITICAL,Deploy 3 officers and continuous monitoring
+Rajajinagar,BTP027 - Modi Bridge Junction,2759,5.348314606741573,14756.0,HIGH,Deploy 2 officers during peak hours
+Magadi Road,"BTP070 - Cholurpalya Junction, Magadi Road",2272,5.940580985915493,13497.0,HIGH,Deploy 2 officers during peak hours
+Vijayanagara,"BTP016 - 5th Main Road, RPC Layout",2464,5.260146103896104,12961.0,HIGH,Deploy 2 officers during peak hours
+High ground,BTP032 - Windsor Circle,2429,5.291889666529436,12854.000000000002,HIGH,Deploy 2 officers during peak hours
+Shivajinagar,BTP042 - Minsk Square Junction (CTO),1880,5.493617021276596,10328.0,HIGH,Deploy 2 officers during peak hours
+Basavanagudi,BTP108 - Tagore Park Junction,1801,5.522487506940589,9946.0,HIGH,Deploy 2 officers during peak hours
+Chamarajpet,BTP048 - Shanthala Junction,1537,6.310344827586207,9699.0,HIGH,Deploy 2 officers during peak hours
+Chamarajpet,"BTP083 - AS Char Street, Mysore Road",1529,6.337475474166122,9690.0,HIGH,Deploy 2 officers during peak hours
+City Market,BTP104 - Medical College Circle,1457,5.159231297185999,7517.0,HIGH,Deploy 2 officers during peak hours
+Upparpet,BTP038 - Mysore Bank Junction,1360,5.516911764705882,7503.0,HIGH,Deploy 2 officers during peak hours
+City Market,BTP043 - Upparpet Junction,1407,5.298507462686567,7455.0,HIGH,Deploy 2 officers during peak hours
+City Market,"BTP083 - AS Char Street, Mysore Road",1183,5.766694843617921,6822.0,MEDIUM,Periodic enforcement patrol
+Adugodi,BTP135 - UCO Bank Junction,1112,6.078237410071942,6759.0,MEDIUM,Periodic enforcement patrol
+Vijayanagara,"BTP022 - Marenahalli Junction, Vijayanagar",1156,5.588235294117647,6460.0,MEDIUM,Periodic enforcement patrol
+Vijayanagara,BTP027 - Modi Bridge Junction,1173,5.506393861892583,6459.0,MEDIUM,Periodic enforcement patrol
+Rajajinagar,"BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",1192,5.366610738255034,6397.0,MEDIUM,Periodic enforcement patrol
+Byatarayanapura,BTP096 - Gali Anjaneya Temple,972,6.2633744855967075,6088.0,MEDIUM,Periodic enforcement patrol
+Cubbon Park,BTP063 - Siddalingaiah Circle,983,6.064089521871821,5961.0,MEDIUM,Periodic enforcement patrol
+Magadi Road,BTP074 - Leprosy Hospital Junction,1047,5.61127029608405,5875.0,MEDIUM,Periodic enforcement patrol
+Malleshwaram,"BTP182 - 19th Main Junction, Rajajinagar",1091,5.23923006416132,5716.0,MEDIUM,Periodic enforcement patrol
+Vijayanagara,BTP205 - Modi Hospital Junction,1007,5.531281032770606,5570.0,MEDIUM,Periodic enforcement patrol
+Malleshwaram,"BTP026 - 1st Block Junction, Rajajinagar",1039,5.238691049085659,5443.0,MEDIUM,Periodic enforcement patrol
+Rajajinagar,BTP061 - Bhashyam Circle,972,5.522633744855967,5368.0,MEDIUM,Periodic enforcement patrol
+Jeevanbheemanagar,"BTP148 - 17th Main, Doopanahalli Bus Stop",745,6.859060402684563,5110.0,MEDIUM,Periodic enforcement patrol
+Rajajinagar,BTP023 - Mahalaxmi Layout Entrance,939,5.260915867944622,4940.0,MEDIUM,Periodic enforcement patrol
+Malleshwaram,BTP008 - Navarang Theatre,966,5.078674948240166,4906.0,MEDIUM,Periodic enforcement patrol
+Ashok Nagar,BTP172 - Nanjappa Circle,776,5.975515463917525,4637.0,MEDIUM,Periodic enforcement patrol
+Malleshwaram,BTP023 - Mahalaxmi Layout Entrance,868,5.315668202764977,4614.0,MEDIUM,Periodic enforcement patrol
+Vijayanagara,BTP069 - MC Circle,819,5.5677655677655675,4560.0,MEDIUM,Periodic enforcement patrol
+Halasuru Gate,BTP082 - KR Market Junction,796,5.327889447236181,4241.0,MEDIUM,Periodic enforcement patrol
+Byatarayanapura,"BTP095 - Satellite Bus Stand, Mysore Road",775,5.420645161290323,4201.0,MEDIUM,Periodic enforcement patrol
+Magadi Road,BTP071 - Prasanna Junction,721,5.778085991678225,4166.0,MEDIUM,Periodic enforcement patrol
+Vijayanagara,BTP028 - Vijayanagar Bus Stand Junction,753,5.418326693227091,4079.9999999999995,MEDIUM,Periodic enforcement patrol
+Magadi Road,BTP010 - Rajajinagar Entrance,623,5.95024077046549,3707.0,MEDIUM,Periodic enforcement patrol
+Vijayanagara,"BTP206 - Shankara Mutt Circle, Vijayanagar",710,5.198591549295775,3691.0,MEDIUM,Periodic enforcement patrol
+Madiwala,BTP137 - Madiwala Traffic PS Junction,596,6.097315436241611,3634.0,MEDIUM,Periodic enforcement patrol
+Jayanagara,"BTP189 - New Diagonal Road, Jayanagar",602,5.965116279069767,3591.0,MEDIUM,Periodic enforcement patrol
+Malleshwaram,BTP027 - Modi Bridge Junction,652,5.469325153374233,3566.0,MEDIUM,Periodic enforcement patrol
+High ground,BTP054 - Shivananda Circle,589,5.930390492359932,3493.0,MEDIUM,Periodic enforcement patrol
+City Market,BTP118 - Basappa Circle,623,5.431781701444622,3383.9999999999995,MEDIUM,Periodic enforcement patrol
+Jayanagara,"BTP226 - 33rd Cross, 11th Main, Jayanagar",492,6.735772357723577,3314.0,MEDIUM,Periodic enforcement patrol
+V.V.Puram (C.Pet),BTP082 - KR Market Junction,632,5.2294303797468356,3305.0,MEDIUM,Periodic enforcement patrol
+Rajajinagar,"BTP204 - ESI Hospital, Rajajinagar",638,5.092476489028213,3249.0,MEDIUM,Periodic enforcement patrol
+Halasuru Gate,BTP038 - Mysore Bank Junction,594,5.4393939393939394,3231.0,MEDIUM,Periodic enforcement patrol
+Magadi Road,"BTP024 - NPS, Vijayanagar",565,5.502654867256637,3109.0,MEDIUM,Periodic enforcement patrol
+Mico Layout,BTP130 - GD Mara Junction,498,6.0582329317269075,3017.0,MEDIUM,Periodic enforcement patrol
+Wilson Garden,"BTP123 - 10th Cross, Wilson Garden",528,5.676136363636363,2997.0,LOW,Routine monitoring
+Wilson Garden,BTP192 - Urvashi Theater,469,5.985074626865671,2807.0,LOW,Routine monitoring
+City Market,BTP044 - Sagar Theatre Junction,500,5.38,2690.0,LOW,Routine monitoring
+Magadi Road,"BTP062 - Basava Mantapa, Dr. Rajkumar Road",425,5.884705882352941,2501.0,LOW,Routine monitoring
+Rajajinagar,"BTP210 - 50th cross, 12th Main , Rajajinagar",455,5.41978021978022,2466.0,LOW,Routine monitoring
+Vijayanagara,BTP208 - Havanur Circle,459,5.30718954248366,2436.0,LOW,Routine monitoring
+Cubbon Park,BTP041 - Gopal Gowda Circle,378,6.423280423280423,2428.0,LOW,Routine monitoring
+Vijayanagara,BTP068 - Veeresh Theatre Junction,417,5.7913669064748206,2415.0,LOW,Routine monitoring
+Wilson Garden,"BTP186 - 9th Cross, 4th Main, Jayanagar",446,5.2959641255605385,2362.0,LOW,Routine monitoring
+Basavanagudi,BTP215 - Vanivillas Junction,409,5.71882640586797,2339.0,LOW,Routine monitoring
+Ashok Nagar,"BTP101 - Blood Bank Circle, KH Road",381,5.766404199475065,2197.0,LOW,Routine monitoring
+Rajajinagar,"BTP170 - Dr. Bheem Rao Palace, Chord Road",374,5.684491978609626,2126.0,LOW,Routine monitoring
+City Market,"BTP080 - NR Road, SP Road Junction",398,5.326633165829146,2120.0,LOW,Routine monitoring
+Mico Layout,"BTP163 - 16th Main Road, BTM Layout",364,5.799450549450549,2111.0,LOW,Routine monitoring
+Sheshadripuram,BTP032 - Windsor Circle,320,6.59375,2110.0,LOW,Routine monitoring
+Banashankari,BTP155 - Katriguppe Junction,339,6.171091445427729,2092.0,LOW,Routine monitoring
+Jayanagara,BTP219 - Canara Bank Junction,358,5.801675977653631,2077.0,LOW,Routine monitoring
+Mico Layout,BTP136 - Hosur-Tavarkere Road Junction,294,6.98639455782313,2054.0,LOW,Routine monitoring
+Byatarayanapura,BTP017 - Attiguppe Circle,393,5.183206106870229,2037.0000000000002,LOW,Routine monitoring
+Upparpet,BTP043 - Upparpet Junction,378,5.325396825396825,2013.0,LOW,Routine monitoring
+City Market,BTP167 - JC Road Junction,368,5.304347826086956,1951.9999999999998,LOW,Routine monitoring
+High ground,BTP058 - Subbanna Junction,359,5.437325905292479,1951.9999999999998,LOW,Routine monitoring
+Ashok Nagar,BTP100 - Richmond Circle,299,5.936454849498328,1775.0,LOW,Routine monitoring
+Jayanagara,"BTP188 - 27th Cross, 4th Main, Jayanagar",294,5.95578231292517,1751.0,LOW,Routine monitoring
+Jayanagara,BTP220 - Puttanna Junction,294,5.894557823129252,1733.0,LOW,Routine monitoring
+Jayanagara,BTP225 - Geetha Junction,287,6.006968641114983,1724.0,LOW,Routine monitoring
+Basavanagudi,BTP109 - Dewan Madhava Rao Junction,309,5.5372168284789645,1711.0,LOW,Routine monitoring
+J.P. Nagar,"BTP197 - 9th Cross, 24th Main, JP Nagar",284,5.711267605633803,1622.0,LOW,Routine monitoring
+Halasuru Gate,BTP076 - Hudson Circle,275,5.876363636363636,1616.0,LOW,Routine monitoring
+Rajajinagar,"BTP182 - 19th Main Junction, Rajajinagar",299,5.254180602006689,1571.0,LOW,Routine monitoring
+Mico Layout,BTP126 - Dairy Circle,213,7.197183098591549,1533.0,LOW,Routine monitoring
+Magadi Road,BTP067 - Jai Muni Rao Circle,274,5.529197080291971,1515.0,LOW,Routine monitoring
+Magadi Road,BTP069 - MC Circle,256,5.53515625,1417.0,LOW,Routine monitoring
+Rajajinagar,BTP010 - Rajajinagar Entrance,252,5.5396825396825395,1396.0,LOW,Routine monitoring
+Byatarayanapura,BTP098 - Nayandahalli Junction,206,6.747572815533981,1390.0,LOW,Routine monitoring
+Kamakshipalya,BTP208 - Havanur Circle,250,5.5,1375.0,LOW,Routine monitoring
+Halasuru Gate,BTP078 - NR Square Junction,244,5.459016393442623,1332.0,LOW,Routine monitoring
+Rajajinagar,BTP009 - Prakash Nagar Junction,262,5.034351145038168,1319.0,LOW,Routine monitoring
+Jayanagara,BTP218 - Syndicate Bank Junction,238,5.504201680672269,1310.0,LOW,Routine monitoring
+Adugodi,BTP140 - Madiwala Check Post,217,5.658986175115207,1228.0,LOW,Routine monitoring
+Cubbon Park,BTP047 - Vidhan Soudha Metro Station,200,6.07,1214.0,LOW,Routine monitoring
+Vijayanagara,BTP018 - Dhobi Ghat Junction,213,5.572769953051643,1187.0,LOW,Routine monitoring
+Ashok Nagar,"BTP099 - Cash Pharmacy, Residency Road",177,6.666666666666667,1180.0,LOW,Routine monitoring
+Vijayanagara,"BTP170 - Dr. Bheem Rao Palace, Chord Road",199,5.8040201005025125,1155.0,LOW,Routine monitoring
+Rajajinagar,BTP008 - Navarang Theatre,224,5.111607142857143,1145.0,LOW,Routine monitoring
+Vijayanagara,BTP207 - 8th Main Road Basaveshwara Nagar,213,5.309859154929577,1131.0,LOW,Routine monitoring
+Jayanagara,"BTP115 - Sahasra Hospital, Jayanagar",198,5.6767676767676765,1124.0,LOW,Routine monitoring
+Jayanagara,"BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",183,6.131147540983607,1122.0,LOW,Routine monitoring
+Halasuru Gate,BTP180 - Swagath Poornima Theatre,195,5.656410256410257,1103.0,LOW,Routine monitoring
+Halasuru Gate,BTP075 - Police Corner,188,5.718085106382978,1075.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP105 - Shivasankara Circle,186,5.779569892473118,1075.0,LOW,Routine monitoring
+High ground,"BTP033 - Sophia High School, Sankey Road",208,5.038461538461538,1048.0,LOW,Routine monitoring
+Jayanagara,"BTP202 - East End Main Road, Jayanagar",131,7.885496183206107,1033.0,LOW,Routine monitoring
+Cubbon Park,"BTP099 - Cash Pharmacy, Residency Road",172,5.97093023255814,1027.0,LOW,Routine monitoring
+Halasur,"BTP145 - Sri Hatti Maramma Circle, Domluru",171,5.970760233918129,1021.0,LOW,Routine monitoring
+Cubbon Park,BTP076 - Hudson Circle,180,5.633333333333334,1014.0000000000001,LOW,Routine monitoring
+Rajajinagar,BTP018 - Dhobi Ghat Junction,169,5.822485207100592,984.0000000000001,LOW,Routine monitoring
+Cubbon Park,BTP052 - CID Carlton House Junction,166,5.909638554216867,981.0,LOW,Routine monitoring
+High ground,BTP034 - LRDE Junction,178,5.477528089887641,975.0000000000001,LOW,Routine monitoring
+Wilson Garden,"BTP102 - BMTC Junction, KH Road",167,5.718562874251497,955.0,LOW,Routine monitoring
+Chamarajpet,BTP085 - Briyand Circle,157,5.949044585987261,934.0,LOW,Routine monitoring
+City Market,BTP192 - Urvashi Theater,156,5.955128205128205,929.0,LOW,Routine monitoring
+City Market,BTP119 - Minerva Circle,162,5.728395061728395,928.0,LOW,Routine monitoring
+Cubbon Park,BTP042 - Minsk Square Junction (CTO),164,5.658536585365853,928.0,LOW,Routine monitoring
+Sheshadripuram,BTP054 - Shivananda Circle,162,5.703703703703703,923.9999999999999,LOW,Routine monitoring
+Basavanagudi,BTP216 - Yediyur Junction,170,5.429411764705883,923.0,LOW,Routine monitoring
+Magadi Road,BTP091 - Sirsi Circle,138,6.63768115942029,916.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP106 - VV Puram College,159,5.660377358490566,899.9999999999999,LOW,Routine monitoring
+Mico Layout,BTP140 - Madiwala Check Post,110,8.172727272727272,898.9999999999999,LOW,Routine monitoring
+Halasuru Gate,BTP079 - Town Hall Junction,162,5.506172839506172,891.9999999999999,LOW,Routine monitoring
+Chamarajpet,BTP214 - 5th Main Chamrajpet  Junction,118,7.47457627118644,882.0,LOW,Routine monitoring
+Wilson Garden,BTP122 - Siddapura Junction,146,5.8561643835616435,855.0,LOW,Routine monitoring
+Jayanagara,"BTP190 - 36th Cross, 4th Main, Jayanagar",145,5.834482758620689,846.0,LOW,Routine monitoring
+Sheshadripuram,BTP057 - Anand Rao Junction,154,5.415584415584416,834.0,LOW,Routine monitoring
+Jayanagara,"BTP179 - 9th Block, 28th Main, Jayanagar",101,8.237623762376238,832.0,LOW,Routine monitoring
+Cubbon Park,BTP037 - KR Circle,135,6.155555555555556,831.0,LOW,Routine monitoring
+Wilson Garden,BTP103 - Shanti Nagar TTMC,144,5.763888888888889,830.0,LOW,Routine monitoring
+Halasur,BTP146 - Domlur Water Tank,136,6.044117647058823,822.0,LOW,Routine monitoring
+Chamarajpet,BTP091 - Sirsi Circle,125,6.496,812.0,LOW,Routine monitoring
+Banashankari,"BTP115 - Sahasra Hospital, Jayanagar",133,6.045112781954887,804.0,LOW,Routine monitoring
+J.P. Nagar,BTP130 - GD Mara Junction,133,6.015037593984962,800.0,LOW,Routine monitoring
+Ashok Nagar,BTP132 - Anepalya Junction,133,5.984962406015038,796.0,LOW,Routine monitoring
+Shivajinagar,BTP173 - TMC,149,5.2885906040268456,788.0,LOW,Routine monitoring
+City Market,BTP120 - Lalbagh Main Gate Junction,138,5.659420289855072,781.0,LOW,Routine monitoring
+Halasuru Gate,BTP203 - RRMR Junction,123,6.32520325203252,778.0,LOW,Routine monitoring
+Byatarayanapura,"BTP094 - Sri Skanda Complex, Mysore Road",111,6.945945945945946,771.0,LOW,Routine monitoring
+Vijayanagara,BTP067 - Jai Muni Rao Circle,133,5.654135338345864,752.0,LOW,Routine monitoring
+Banashankari,"BTP113 - 27th Cross, Pai Vista, KR Road",126,5.880952380952381,741.0,LOW,Routine monitoring
+Halasuru Gate,"BTP168 - MSR Building, JC Road",128,5.7109375,731.0,LOW,Routine monitoring
+Cubbon Park,BTP166 - Coffee Board Junction,121,5.950413223140496,720.0,LOW,Routine monitoring
+J.P. Nagar,BTP196 - Sarakki Main Road,138,5.13768115942029,709.0,LOW,Routine monitoring
+J.P. Nagar,"BTP221 - 15th Cross, 24th Main, JP Nagar",116,6.086206896551724,706.0,LOW,Routine monitoring
+Cubbon Park,BTP051 - Safina Plaza Junction,105,6.133333333333334,644.0,LOW,Routine monitoring
+High ground,BTP057 - Anand Rao Junction,116,5.5,638.0,LOW,Routine monitoring
+Wilson Garden,BTP121 - KH Circle,107,5.934579439252336,635.0,LOW,Routine monitoring
+Wilson Garden,BTP218 - Syndicate Bank Junction,113,5.539823008849558,626.0,LOW,Routine monitoring
+Halasuru Gate,BTP064 - Devanga Hostel Junction,104,6.019230769230769,626.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP193 - Vasavi Circle,105,5.923809523809524,622.0,LOW,Routine monitoring
+J.P. Nagar,"BTP117 - 9th Cross, Kanakapura Road",120,5.141666666666667,617.0,LOW,Routine monitoring
+J.P. Nagar,BTP222 - Delmia Circle,98,6.173469387755102,605.0,LOW,Routine monitoring
+J.P. Nagar,"BTP177 - Aurobindo Circle, ORR",105,5.752380952380952,604.0,LOW,Routine monitoring
+Wilson Garden,BTP120 - Lalbagh Main Gate Junction,106,5.669811320754717,601.0,LOW,Routine monitoring
+Jayanagara,"BTP117 - 9th Cross, Kanakapura Road",111,5.414414414414415,601.0,LOW,Routine monitoring
+Basavanagudi,"BTP186 - 9th Cross, 4th Main, Jayanagar",100,5.85,585.0,LOW,Routine monitoring
+Chamarajpet,"BTP089 - Police Quarters, Sultan Road",87,6.724137931034483,585.0,LOW,Routine monitoring
+Jayanagara,"BTP127 - Sagar Hospital, Jayanagar",70,8.257142857142858,578.0000000000001,LOW,Routine monitoring
+Jayanagara,"BTP191 - 40th Cross, 4th Main, Jayanagar",105,5.457142857142857,573.0,LOW,Routine monitoring
+Basavanagudi,BTP184 - Lalbagh West Gate,99,5.666666666666667,561.0,LOW,Routine monitoring
+Vijayanagara,BTP214 - 5th Main Chamrajpet  Junction,103,5.378640776699029,554.0,LOW,Routine monitoring
+Magadi Road,BTP208 - Havanur Circle,103,5.262135922330097,542.0,LOW,Routine monitoring
+Rajajinagar,"BTP015 - Suguna Hospital, Dr. Rajkumar Road",103,5.223300970873787,538.0,LOW,Routine monitoring
+Shivajinagar,BTP171 - Indian Express (Balekundri),96,5.46875,525.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP217 - Baleyele Junction,85,6.129411764705883,521.0,LOW,Routine monitoring
+Cubbon Park,BTP036 - Police Thimmaiah Circle (GPO),83,6.156626506024097,511.0,LOW,Routine monitoring
+Chamarajpet,BTP092 - Bangalore Builders Junction,72,6.972222222222222,502.0,LOW,Routine monitoring
+Magadi Road,BTP068 - Veeresh Theatre Junction,87,5.540229885057471,482.0,LOW,Routine monitoring
+Sheshadripuram,BTP010 - Rajajinagar Entrance,82,5.853658536585366,480.0,LOW,Routine monitoring
+Jayanagara,"BTP177 - Aurobindo Circle, ORR",81,5.888888888888889,477.00000000000006,LOW,Routine monitoring
+Adugodi,BTP133 - Adugodi Junction,73,6.410958904109589,468.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP212 - Minto Junction,78,5.987179487179487,467.0,LOW,Routine monitoring
+Adugodi,BTP126 - Dairy Circle,73,6.342465753424658,463.0,LOW,Routine monitoring
+K.S. Layout,"BTP117 - 9th Cross, Kanakapura Road",76,6.026315789473684,458.0,LOW,Routine monitoring
+Halasuru Gate,BTP063 - Siddalingaiah Circle,77,5.857142857142857,450.99999999999994,LOW,Routine monitoring
+Wilson Garden,BTP184 - Lalbagh West Gate,70,5.714285714285714,400.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP107 - National College Junction,66,5.924242424242424,391.0,LOW,Routine monitoring
+Magadi Road,BTP020 - Hosahalli Metro Station,66,5.878787878787879,388.0,LOW,Routine monitoring
+J.P. Nagar,"BTP159 - JP Nagar Metro, ORR",64,5.984375,383.0,LOW,Routine monitoring
+Banashankari,"BTP114 - KR Road Junction, Near JSS",63,6.0476190476190474,381.0,LOW,Routine monitoring
+Sadashivanagar,BTP030 - Mekhri Circle,60,6.2,372.0,LOW,Routine monitoring
+City Market,BTP038 - Mysore Bank Junction,67,5.417910447761194,363.0,LOW,Routine monitoring
+Madiwala,BTP138 - Sarjapur Road Check Post,60,6.016666666666667,361.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),"BTP083 - AS Char Street, Mysore Road",66,5.4393939393939394,359.0,LOW,Routine monitoring
+Wilson Garden,BTP180 - Swagath Poornima Theatre,60,5.883333333333334,353.0,LOW,Routine monitoring
+Upparpet,BTP037 - KR Circle,64,5.328125,341.0,LOW,Routine monitoring
+Magadi Road,BTP061 - Bhashyam Circle,58,5.586206896551724,324.0,LOW,Routine monitoring
+Adugodi,BTP136 - Hosur-Tavarkere Road Junction,51,6.176470588235294,315.0,LOW,Routine monitoring
+Wilson Garden,BTP126 - Dairy Circle,48,6.416666666666667,308.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP104 - Medical College Circle,51,5.980392156862745,305.0,LOW,Routine monitoring
+Upparpet,BTP048 - Shanthala Junction,56,5.428571428571429,304.0,LOW,Routine monitoring
+Madiwala,BTP140 - Madiwala Check Post,41,7.341463414634147,301.0,LOW,Routine monitoring
+High ground,BTP053 - Three Let Junction,50,5.82,291.0,LOW,Routine monitoring
+Chamarajpet,"BTP093 - Toll Gate, Mysore Road",37,7.8108108108108105,289.0,LOW,Routine monitoring
+Mico Layout,BTP128 - Gorappanapalya Junction,47,6.085106382978723,286.0,LOW,Routine monitoring
+Magadi Road,"BTP093 - Toll Gate, Mysore Road",44,6.295454545454546,277.0,LOW,Routine monitoring
+Vijayanagara,"BTP024 - NPS, Vijayanagar",46,5.434782608695652,250.0,LOW,Routine monitoring
+Banashankari,BTP158 - Devegowda Petrol Bunk,45,5.488888888888889,247.0,LOW,Routine monitoring
+Ashok Nagar,BTP051 - Safina Plaza Junction,46,5.3478260869565215,246.0,LOW,Routine monitoring
+Rajajinagar,"BTP026 - 1st Block Junction, Rajajinagar",47,5.191489361702128,244.0,LOW,Routine monitoring
+Rajajinagar,BTP006 - Navarang Bar Junction,47,5.148936170212766,241.99999999999997,LOW,Routine monitoring
+K.S. Layout,"BTP159 - JP Nagar Metro, ORR",37,6.27027027027027,232.0,LOW,Routine monitoring
+Adugodi,BTP134 - Mico Bande,41,5.585365853658536,228.99999999999997,LOW,Routine monitoring
+Halasuru Gate,BTP037 - KR Circle,40,5.625,225.0,LOW,Routine monitoring
+Cubbon Park,BTP034 - LRDE Junction,39,5.641025641025641,220.00000000000003,LOW,Routine monitoring
+Basavanagudi,BTP185 - RV Teachers College,38,5.7105263157894735,217.0,LOW,Routine monitoring
+Ashok Nagar,BTP142 - Lower Agram Road Junction,33,6.363636363636363,210.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP119 - Minerva Circle,37,5.621621621621622,208.0,LOW,Routine monitoring
+Rajajinagar,BTP205 - Modi Hospital Junction,38,5.394736842105263,205.0,LOW,Routine monitoring
+Magadi Road,BTP092 - Bangalore Builders Junction,24,7.958333333333333,191.0,LOW,Routine monitoring
+High ground,BTP035 - Basaweshwara Circle (LH) Junction,32,5.71875,183.0,LOW,Routine monitoring
+K.S. Layout,"BTP115 - Sahasra Hospital, Jayanagar",31,5.870967741935484,182.0,LOW,Routine monitoring
+Halasur,BTP141 - Palmgroove Junction,28,6.107142857142857,171.0,LOW,Routine monitoring
+Halasuru Gate,"BTP101 - Blood Bank Circle, KH Road",29,5.793103448275862,168.0,LOW,Routine monitoring
+City Market,BTP184 - Lalbagh West Gate,31,5.32258064516129,165.0,LOW,Routine monitoring
+Mico Layout,"BTP164 - 29th Main Road, BTM Layout",31,5.225806451612903,162.0,LOW,Routine monitoring
+J.P. Nagar,"BTP200 - 15th Cross, 33rd Main, JP Nagar",28,5.714285714285714,160.0,LOW,Routine monitoring
+Vijayanagara,BTP017 - Attiguppe Circle,29,5.482758620689655,159.0,LOW,Routine monitoring
+Halasuru Gate,BTP077 - Halasuru Gate Junction,30,5.233333333333333,157.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP118 - Basappa Circle,30,5.133333333333334,154.0,LOW,Routine monitoring
+Chamarajpet,BTP213 - Royan Circle,20,7.65,153.0,LOW,Routine monitoring
+R.T. Nagar,BTP030 - Mekhri Circle,27,5.666666666666667,153.0,LOW,Routine monitoring
+J.P. Nagar,"BTP161 - 15th Cross, 35th Main, JP Nagar",23,6.608695652173913,152.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP215 - Vanivillas Junction,25,6.0,150.0,LOW,Routine monitoring
+Wilson Garden,BTP187 - South End Circle,27,5.518518518518518,149.0,LOW,Routine monitoring
+High ground,BTP052 - CID Carlton House Junction,26,5.730769230769231,149.0,LOW,Routine monitoring
+Ashok Nagar,BTP141 - Palmgroove Junction,22,6.5,143.0,LOW,Routine monitoring
+Halasur,BTP143 - ASC Junction,24,5.875,141.0,LOW,Routine monitoring
+Adugodi,BTP132 - Anepalya Junction,24,5.666666666666667,136.0,LOW,Routine monitoring
+Basavanagudi,BTP214 - 5th Main Chamrajpet  Junction,20,6.2,124.0,LOW,Routine monitoring
+Chamarajpet,BTP057 - Anand Rao Junction,21,5.761904761904762,121.0,LOW,Routine monitoring
+Wilson Garden,BTP185 - RV Teachers College,19,6.2105263157894735,118.0,LOW,Routine monitoring
+Rajajinagar,"BTP024 - NPS, Vijayanagar",21,5.571428571428571,117.0,LOW,Routine monitoring
+Basavanagudi,BTP187 - South End Circle,20,5.4,108.0,LOW,Routine monitoring
+Madiwala,BTP136 - Hosur-Tavarkere Road Junction,15,7.2,108.0,LOW,Routine monitoring
+J.P. Nagar,"BTP198 - 9th Cross, 8th Main, JP Nagar",14,6.357142857142857,89.0,LOW,Routine monitoring
+Cubbon Park,BTP211 - Central Street Junction,15,5.6,84.0,LOW,Routine monitoring
+Malleshwaram,"BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",16,5.1875,83.0,LOW,Routine monitoring
+K.S. Layout,BTP157 - Kadirenahalli Cross,13,6.384615384615385,83.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP184 - Lalbagh West Gate,15,5.533333333333333,83.0,LOW,Routine monitoring
+Banashankari,BTP156 - Kamakya Junction,13,6.3076923076923075,82.0,LOW,Routine monitoring
+Adugodi,BTP138 - Sarjapur Road Check Post,15,5.4,81.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP214 - 5th Main Chamrajpet  Junction,11,7.090909090909091,78.0,LOW,Routine monitoring
+Magadi Road,"BTP025 - Puttamma Choultry, Nagarbhavi",14,5.5,77.0,LOW,Routine monitoring
+Vijayanagara,"BTP025 - Puttamma Choultry, Nagarbhavi",13,5.461538461538462,71.0,LOW,Routine monitoring
+J.P. Nagar,"BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",13,5.384615384615385,70.0,LOW,Routine monitoring
+Mico Layout,"BTP127 - Sagar Hospital, Jayanagar",13,5.3076923076923075,69.0,LOW,Routine monitoring
+Madiwala,"BTP164 - 29th Main Road, BTM Layout",11,6.181818181818182,68.0,LOW,Routine monitoring
+Banashankari,BTP154 - Itmadu Junction,12,5.416666666666667,65.0,LOW,Routine monitoring
+Jayanagara,BTP128 - Gorappanapalya Junction,8,7.875,63.0,LOW,Routine monitoring
+Banashankari,"BTP112 - 14th Cross, KR Road",10,6.2,62.0,LOW,Routine monitoring
+J.P. Nagar,"BTP179 - 9th Block, 28th Main, Jayanagar",9,6.777777777777778,61.0,LOW,Routine monitoring
+Jeevanbheemanagar,BTP146 - Domlur Water Tank,10,5.8,58.0,LOW,Routine monitoring
+Byatarayanapura,"BTP093 - Toll Gate, Mysore Road",9,6.333333333333333,57.0,LOW,Routine monitoring
+High ground,BTP171 - Indian Express (Balekundri),10,5.6,56.0,LOW,Routine monitoring
+Mico Layout,"BTP202 - East End Main Road, Jayanagar",7,7.571428571428571,53.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP085 - Briyand Circle,9,5.777777777777778,52.0,LOW,Routine monitoring
+No Police Station,"BTP016 - 5th Main Road, RPC Layout",10,5.0,50.0,LOW,Routine monitoring
+Basavanagudi,BTP107 - National College Junction,7,6.571428571428571,46.0,LOW,Routine monitoring
+Rajajinagar,"BTP206 - Shankara Mutt Circle, Vijayanagar",9,5.0,45.0,LOW,Routine monitoring
+Jayanagara,BTP187 - South End Circle,9,5.0,45.0,LOW,Routine monitoring
+Basavanagudi,BTP193 - Vasavi Circle,8,5.625,45.0,LOW,Routine monitoring
+Halasuru Gate,"BTP102 - BMTC Junction, KH Road",7,6.0,42.0,LOW,Routine monitoring
+Cubbon Park,BTP171 - Indian Express (Balekundri),8,5.0,40.0,LOW,Routine monitoring
+Wilson Garden,BTP134 - Mico Bande,8,5.0,40.0,LOW,Routine monitoring
+Basavanagudi,"BTP110 - Bharathi Nursing Home, Basavanagudi",7,5.428571428571429,38.0,LOW,Routine monitoring
+Halasur,BTP144 - Commando Hospital Junction,6,6.333333333333333,38.0,LOW,Routine monitoring
+Adugodi,"BTP123 - 10th Cross, Wilson Garden",7,5.285714285714286,37.0,LOW,Routine monitoring
+City Market,BTP180 - Swagath Poornima Theatre,6,6.0,36.0,LOW,Routine monitoring
+Cubbon Park,BTP203 - RRMR Junction,7,5.0,35.0,LOW,Routine monitoring
+J.P. Nagar,BTP181 - Bileka Halli Junction,5,6.0,30.0,LOW,Routine monitoring
+Upparpet,BTP052 - CID Carlton House Junction,6,5.0,30.0,LOW,Routine monitoring
+Halasuru Gate,BTP100 - Richmond Circle,3,9.0,27.0,LOW,Routine monitoring
+Ashok Nagar,"BTP145 - Sri Hatti Maramma Circle, Domluru",4,6.0,24.0,LOW,Routine monitoring
+Cubbon Park,BTP035 - Basaweshwara Circle (LH) Junction,4,6.0,24.0,LOW,Routine monitoring
+Jayanagara,"BTP178 - 18th Main, Marenahalli",4,6.0,24.0,LOW,Routine monitoring
+J.P. Nagar,"BTP202 - East End Main Road, Jayanagar",4,5.5,22.0,LOW,Routine monitoring
+City Market,"BTP168 - MSR Building, JC Road",4,5.25,21.0,LOW,Routine monitoring
+Halasuru Gate,BTP167 - JC Road Junction,4,5.0,20.0,LOW,Routine monitoring
+No Police Station,BTP057 - Anand Rao Junction,3,6.0,18.0,LOW,Routine monitoring
+Mico Layout,BTP181 - Bileka Halli Junction,3,5.666666666666667,17.0,LOW,Routine monitoring
+Cubbon Park,BTP173 - TMC,3,5.333333333333333,16.0,LOW,Routine monitoring
+Banashankari,BTP157 - Kadirenahalli Cross,3,5.333333333333333,16.0,LOW,Routine monitoring
+J.P. Nagar,"BTP178 - 18th Main, Marenahalli",3,5.0,15.0,LOW,Routine monitoring
+Cubbon Park,BTP100 - Richmond Circle,2,6.0,12.0,LOW,Routine monitoring
+Jayanagara,BTP216 - Yediyur Junction,2,6.0,12.0,LOW,Routine monitoring
+K.S. Layout,"BTP113 - 27th Cross, Pai Vista, KR Road",2,6.0,12.0,LOW,Routine monitoring
+No Police Station,BTP067 - Jai Muni Rao Circle,2,6.0,12.0,LOW,Routine monitoring
+Wilson Garden,BTP132 - Anepalya Junction,1,9.0,9.0,LOW,Routine monitoring
+Jayanagara,"BTP114 - KR Road Junction, Near JSS",1,9.0,9.0,LOW,Routine monitoring
+Ashok Nagar,"BTP102 - BMTC Junction, KH Road",1,6.0,6.0,LOW,Routine monitoring
+V.V.Puram (C.Pet),BTP213 - Royan Circle,1,6.0,6.0,LOW,Routine monitoring
+No Police Station,BTP028 - Vijayanagar Bus Stand Junction,1,5.0,5.0,LOW,Routine monitoring
+Magadi Road,"BTP094 - Sri Skanda Complex, Mysore Road",1,5.0,5.0,LOW,Routine monitoring
+No Police Station,BTP082 - KR Market Junction,1,5.0,5.0,LOW,Routine monitoring
+No Police Station,"BTP022 - Marenahalli Junction, Vijayanagar",1,5.0,5.0,LOW,Routine monitoring
+Upparpet,BTP053 - Three Let Junction,1,5.0,5.0,LOW,Routine monitoring
+Chamarajpet,BTP043 - Upparpet Junction,1,5.0,5.0,LOW,Routine monitoring

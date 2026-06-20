@@ -1,0 +1,81 @@
+police_station,junction_name,day_of_week,hour,expected_violations
+City Market,BTP082 - KR Market Junction,Sunday,19,127.69852257381245
+Upparpet,BTP058 - Subbanna Junction,Sunday,19,123.63000504435894
+City Market,BTP082 - KR Market Junction,Sunday,20,99.97722933416004
+City Market,BTP082 - KR Market Junction,Sunday,18,99.6153612011755
+Upparpet,BTP058 - Subbanna Junction,Sunday,20,98.76944316282231
+Upparpet,BTP058 - Subbanna Junction,Sunday,18,91.57066288015733
+Shivajinagar,BTP051 - Safina Plaza Junction,Sunday,17,81.80789896660765
+Shivajinagar,BTP051 - Safina Plaza Junction,Sunday,18,77.52772796632485
+Shivajinagar,BTP051 - Safina Plaza Junction,Sunday,19,71.63631092373339
+City Market,BTP082 - KR Market Junction,Sunday,17,71.46784911743481
+Shivajinagar,BTP051 - Safina Plaza Junction,Sunday,20,71.44351341050289
+Upparpet,BTP044 - Sagar Theatre Junction,Sunday,19,63.76169868849372
+Upparpet,BTP044 - Sagar Theatre Junction,Sunday,20,61.93878320044814
+Upparpet,BTP058 - Subbanna Junction,Sunday,17,57.15582000215654
+Upparpet,BTP040 - Elite Junction,Sunday,19,51.459328552390126
+Upparpet,BTP040 - Elite Junction,Sunday,20,48.820919133629644
+Upparpet,BTP044 - Sagar Theatre Junction,Sunday,18,43.39305591918689
+Upparpet,BTP044 - Sagar Theatre Junction,Sunday,17,37.37896497480619
+Upparpet,BTP057 - Anand Rao Junction,Sunday,19,35.86338483590062
+Upparpet,BTP040 - Elite Junction,Sunday,18,34.272540455074186
+Vijayanagara,"BTP016 - 5th Main Road, RPC Layout",Sunday,20,33.14220301639528
+Upparpet,BTP057 - Anand Rao Junction,Sunday,20,32.924380039894196
+Vijayanagara,"BTP016 - 5th Main Road, RPC Layout",Sunday,19,31.586138836774623
+Shivajinagar,BTP211 - Central Street Junction,Sunday,19,28.67064546792538
+Shivajinagar,BTP211 - Central Street Junction,Sunday,20,28.172541793825285
+Upparpet,BTP040 - Elite Junction,Sunday,17,27.98624457920465
+Vijayanagara,"BTP016 - 5th Main Road, RPC Layout",Sunday,18,27.981986628762172
+Vijayanagara,"BTP016 - 5th Main Road, RPC Layout",Sunday,17,26.759087310678552
+High ground,BTP032 - Windsor Circle,Sunday,20,24.680415408944615
+High ground,BTP032 - Windsor Circle,Sunday,19,22.767592650577154
+Shivajinagar,BTP211 - Central Street Junction,Sunday,17,19.786814628544573
+Shivajinagar,BTP211 - Central Street Junction,Sunday,18,19.772015285324184
+High ground,BTP032 - Windsor Circle,Sunday,17,19.496513604620727
+High ground,BTP032 - Windsor Circle,Sunday,18,19.015405062473157
+Upparpet,BTP045 - Danvanthri Road Junction,Sunday,20,18.966118597426497
+Vijayanagara,BTP020 - Hosahalli Metro Station,Sunday,19,18.689868316248084
+Vijayanagara,BTP020 - Hosahalli Metro Station,Sunday,20,17.879327670987433
+Malleshwaram,"BTP001 - 10th Cross, Dr. Rajkumar Road",Sunday,20,17.69523096448938
+Upparpet,BTP045 - Danvanthri Road Junction,Sunday,19,17.499083290640606
+Upparpet,BTP057 - Anand Rao Junction,Sunday,18,15.95609408157148
+City Market,BTP104 - Medical College Circle,Sunday,19,15.668034244055965
+City Market,BTP104 - Medical College Circle,Sunday,18,14.051834374526445
+Basavanagudi,BTP108 - Tagore Park Junction,Sunday,20,13.585052981804932
+Basavanagudi,BTP108 - Tagore Park Junction,Sunday,19,13.190316246448024
+City Market,BTP104 - Medical College Circle,Sunday,20,13.069470917998817
+Magadi Road,"BTP070 - Cholurpalya Junction, Magadi Road",Sunday,20,12.680279187246693
+Chamarajpet,BTP048 - Shanthala Junction,Sunday,19,12.66690831464927
+Rajajinagar,BTP027 - Modi Bridge Junction,Sunday,20,12.162561665682004
+Vijayanagara,BTP020 - Hosahalli Metro Station,Sunday,18,12.157689769937523
+Rajajinagar,BTP027 - Modi Bridge Junction,Sunday,19,12.08418570513247
+Rajajinagar,BTP027 - Modi Bridge Junction,Sunday,17,11.603908930655425
+Magadi Road,"BTP070 - Cholurpalya Junction, Magadi Road",Sunday,19,11.517016354280127
+Magadi Road,"BTP070 - Cholurpalya Junction, Magadi Road",Sunday,17,11.506531056309697
+Magadi Road,"BTP070 - Cholurpalya Junction, Magadi Road",Sunday,18,11.467348190501259
+Basavanagudi,BTP108 - Tagore Park Junction,Sunday,18,11.45719234582174
+Malleshwaram,"BTP001 - 10th Cross, Dr. Rajkumar Road",Sunday,19,11.190135250337837
+Rajajinagar,BTP027 - Modi Bridge Junction,Sunday,18,11.090739466720303
+Chamarajpet,BTP048 - Shanthala Junction,Sunday,18,10.97064940907988
+Shivajinagar,BTP042 - Minsk Square Junction (CTO),Sunday,20,10.919098363238696
+Chamarajpet,BTP048 - Shanthala Junction,Sunday,17,10.610578804660516
+Chamarajpet,BTP048 - Shanthala Junction,Sunday,20,10.603849256387916
+City Market,BTP104 - Medical College Circle,Sunday,17,10.447024527592895
+Upparpet,BTP057 - Anand Rao Junction,Sunday,17,10.42965699122377
+Vijayanagara,BTP020 - Hosahalli Metro Station,Sunday,17,10.328945405606934
+Shivajinagar,BTP042 - Minsk Square Junction (CTO),Sunday,19,10.230959890584934
+Basavanagudi,BTP108 - Tagore Park Junction,Sunday,17,10.11269190751687
+Shivajinagar,BTP042 - Minsk Square Junction (CTO),Sunday,17,9.177568724116199
+Shivajinagar,BTP042 - Minsk Square Junction (CTO),Sunday,18,9.023094739660166
+Upparpet,BTP045 - Danvanthri Road Junction,Sunday,18,8.975126641478658
+Chamarajpet,"BTP083 - AS Char Street, Mysore Road",Sunday,20,8.433621342245486
+Halasuru Gate,"BTP080 - NR Road, SP Road Junction",Sunday,19,8.370039915188293
+Halasuru Gate,"BTP080 - NR Road, SP Road Junction",Sunday,20,8.3514432362425
+Chamarajpet,"BTP083 - AS Char Street, Mysore Road",Sunday,17,8.00058737799246
+Chamarajpet,"BTP083 - AS Char Street, Mysore Road",Sunday,18,7.982229936011835
+Halasuru Gate,"BTP080 - NR Road, SP Road Junction",Sunday,17,7.863928431422066
+Chamarajpet,"BTP083 - AS Char Street, Mysore Road",Sunday,19,7.739551025180036
+Halasuru Gate,"BTP080 - NR Road, SP Road Junction",Sunday,18,7.330597304232381
+Upparpet,BTP045 - Danvanthri Road Junction,Sunday,17,6.348509470102403
+Malleshwaram,"BTP001 - 10th Cross, Dr. Rajkumar Road",Sunday,18,4.893637746921966
+Malleshwaram,"BTP001 - 10th Cross, Dr. Rajkumar Road",Sunday,17,4.252360232234292

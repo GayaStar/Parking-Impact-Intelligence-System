@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3c1eb19a07daf4c2d758336c898ace7d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3c1eb19a07daf4c2d758336c898ace7d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3c1eb19a07daf4c2d758336c898ace7d = L.map(
+                "map_3c1eb19a07daf4c2d758336c898ace7d",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6060d5d4d0a2874920a357a012a94160 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6060d5d4d0a2874920a357a012a94160.addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+            var circle_marker_33eed7ab246cdcd5a403bae593aa098a = L.circleMarker(
+                [12.981212065557246, 77.60869513989651],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_ac31765dfaca7ecdda0796089c6ee074 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd889e3d2777fcb9442f4fdb33ac395c = $(`<div id="html_cd889e3d2777fcb9442f4fdb33ac395c" style="width: 100.0%; height: 100.0%;">          BTP051 - Safina Plaza Junction          <br>          EPI: 156969          </div>`)[0];
+                popup_ac31765dfaca7ecdda0796089c6ee074.setContent(html_cd889e3d2777fcb9442f4fdb33ac395c);
+            
+        
+
+        circle_marker_33eed7ab246cdcd5a403bae593aa098a.bindPopup(popup_ac31765dfaca7ecdda0796089c6ee074)
+        ;
+
+        
+    
+    
+            var circle_marker_5f81ac659228b620cd2537b242e5d670 = L.circleMarker(
+                [12.976596713370032, 77.5766021547117],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_9b3ad5026731a9955163ca80bdb2bf3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_471ad7161b83990a6dc96f00c342c972 = $(`<div id="html_471ad7161b83990a6dc96f00c342c972" style="width: 100.0%; height: 100.0%;">          BTP040 - Elite Junction          <br>          EPI: 106117          </div>`)[0];
+                popup_9b3ad5026731a9955163ca80bdb2bf3a.setContent(html_471ad7161b83990a6dc96f00c342c972);
+            
+        
+
+        circle_marker_5f81ac659228b620cd2537b242e5d670.bindPopup(popup_9b3ad5026731a9955163ca80bdb2bf3a)
+        ;
+
+        
+    
+    
+            var circle_marker_f2fa5428ed05004df3b42988f6164fe9 = L.circleMarker(
+                [12.974938996857006, 77.57889570478889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_014175ee5bde5a30b12ef0ec95086eac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a8a4d7bc2cd0c944608d35091f4748a = $(`<div id="html_4a8a4d7bc2cd0c944608d35091f4748a" style="width: 100.0%; height: 100.0%;">          BTP044 - Sagar Theatre Junction          <br>          EPI: 101395          </div>`)[0];
+                popup_014175ee5bde5a30b12ef0ec95086eac.setContent(html_4a8a4d7bc2cd0c944608d35091f4748a);
+            
+        
+
+        circle_marker_f2fa5428ed05004df3b42988f6164fe9.bindPopup(popup_014175ee5bde5a30b12ef0ec95086eac)
+        ;
+
+        
+    
+    
+            var circle_marker_b4ef3db969b8ee05f29f34cd0f4da1a1 = L.circleMarker(
+                [12.964423750642322, 77.57724121294085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_3f34c53283a1d077d3ff1555ad7a3342 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b0b7f18ebd8d24815c259ea06e301c2 = $(`<div id="html_9b0b7f18ebd8d24815c259ea06e301c2" style="width: 100.0%; height: 100.0%;">          BTP082 - KR Market Junction          <br>          EPI: 85430          </div>`)[0];
+                popup_3f34c53283a1d077d3ff1555ad7a3342.setContent(html_9b0b7f18ebd8d24815c259ea06e301c2);
+            
+        
+
+        circle_marker_b4ef3db969b8ee05f29f34cd0f4da1a1.bindPopup(popup_3f34c53283a1d077d3ff1555ad7a3342)
+        ;
+
+        
+    
+    
+            var circle_marker_3cc02e8d8422f8dd85b736f821654bd3 = L.circleMarker(
+                [12.983371022821446, 77.60345435130863],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_f0fa87aafd8cd5442b59d806eb5e8469 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_084ab60de8e6b68c9acc808ce9887ddb = $(`<div id="html_084ab60de8e6b68c9acc808ce9887ddb" style="width: 100.0%; height: 100.0%;">          BTP211 - Central Street Junction          <br>          EPI: 51517          </div>`)[0];
+                popup_f0fa87aafd8cd5442b59d806eb5e8469.setContent(html_084ab60de8e6b68c9acc808ce9887ddb);
+            
+        
+
+        circle_marker_3cc02e8d8422f8dd85b736f821654bd3.bindPopup(popup_f0fa87aafd8cd5442b59d806eb5e8469)
+        ;
+
+        
+    
+    
+            var circle_marker_9e815adfb0aa0c3b0d2f6095cd087675 = L.circleMarker(
+                [12.979021616597574, 77.57866101486218],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_7895352fd90566d467708831d58f9535 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b698ae69581ffaae91fa659138a7dd2f = $(`<div id="html_b698ae69581ffaae91fa659138a7dd2f" style="width: 100.0%; height: 100.0%;">          BTP058 - Subbanna Junction          <br>          EPI: 45022          </div>`)[0];
+                popup_7895352fd90566d467708831d58f9535.setContent(html_b698ae69581ffaae91fa659138a7dd2f);
+            
+        
+
+        circle_marker_9e815adfb0aa0c3b0d2f6095cd087675.bindPopup(popup_7895352fd90566d467708831d58f9535)
+        ;
+
+        
+    
+    
+            var circle_marker_5d99c7555ef0f60fd5384acb59b08818 = L.circleMarker(
+                [12.97414419858571, 77.54529421309437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_1c2f49013a4d21f037d261cef6a8ed62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f89a2306bd92b89575ba5e94fe81f5de = $(`<div id="html_f89a2306bd92b89575ba5e94fe81f5de" style="width: 100.0%; height: 100.0%;">          BTP020 - Hosahalli Metro Station          <br>          EPI: 40443          </div>`)[0];
+                popup_1c2f49013a4d21f037d261cef6a8ed62.setContent(html_f89a2306bd92b89575ba5e94fe81f5de);
+            
+        
+
+        circle_marker_5d99c7555ef0f60fd5384acb59b08818.bindPopup(popup_1c2f49013a4d21f037d261cef6a8ed62)
+        ;
+
+        
+    
+    
+            var circle_marker_4d2c671f81872f1d3b5cdb80e816c978 = L.circleMarker(
+                [12.979395373087677, 77.5743883072681],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_6873c41fa44b8ed3a66f5bcf71ead213 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8fb58bdc8afe1654ec78040b1c048ff = $(`<div id="html_c8fb58bdc8afe1654ec78040b1c048ff" style="width: 100.0%; height: 100.0%;">          BTP057 - Anand Rao Junction          <br>          EPI: 33136          </div>`)[0];
+                popup_6873c41fa44b8ed3a66f5bcf71ead213.setContent(html_c8fb58bdc8afe1654ec78040b1c048ff);
+            
+        
+
+        circle_marker_4d2c671f81872f1d3b5cdb80e816c978.bindPopup(popup_6873c41fa44b8ed3a66f5bcf71ead213)
+        ;
+
+        
+    
+    
+            var circle_marker_1d0cfcdbc994d28ffc305ac247e3c2bc = L.circleMarker(
+                [12.964396575724733, 77.58316820553203],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_3610600bb33433e27c0bc230a033bdce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb41071205e53435e0996db88f5066e6 = $(`<div id="html_eb41071205e53435e0996db88f5066e6" style="width: 100.0%; height: 100.0%;">          BTP080 - NR Road, SP Road Junction          <br>          EPI: 32382          </div>`)[0];
+                popup_3610600bb33433e27c0bc230a033bdce.setContent(html_eb41071205e53435e0996db88f5066e6);
+            
+        
+
+        circle_marker_1d0cfcdbc994d28ffc305ac247e3c2bc.bindPopup(popup_3610600bb33433e27c0bc230a033bdce)
+        ;
+
+        
+    
+    
+            var circle_marker_19f6eb9546b0bbc5a8dc849f0ebce8bc = L.circleMarker(
+                [12.977065128575918, 77.57478964140208],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_f378549b6899d986d982cfbc65576946 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b83dee5316d92906a3242d675d44126d = $(`<div id="html_b83dee5316d92906a3242d675d44126d" style="width: 100.0%; height: 100.0%;">          BTP045 - Danvanthri Road Junction          <br>          EPI: 29735          </div>`)[0];
+                popup_f378549b6899d986d982cfbc65576946.setContent(html_b83dee5316d92906a3242d675d44126d);
+            
+        
+
+        circle_marker_19f6eb9546b0bbc5a8dc849f0ebce8bc.bindPopup(popup_f378549b6899d986d982cfbc65576946)
+        ;
+
+        
+    
+    
+            var circle_marker_583a78b60fc7896e0f6b05f5f0ba436c = L.circleMarker(
+                [12.998897494610551, 77.54941567682629],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_df2ac41014738f71c742b341efdec33f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11037f985be76f519fa8f280677ebe63 = $(`<div id="html_11037f985be76f519fa8f280677ebe63" style="width: 100.0%; height: 100.0%;">          BTP027 - Modi Bridge Junction          <br>          EPI: 26276          </div>`)[0];
+                popup_df2ac41014738f71c742b341efdec33f.setContent(html_11037f985be76f519fa8f280677ebe63);
+            
+        
+
+        circle_marker_583a78b60fc7896e0f6b05f5f0ba436c.bindPopup(popup_df2ac41014738f71c742b341efdec33f)
+        ;
+
+        
+    
+    
+            var circle_marker_f998be3f3ed72d10939ea859960f7bed = L.circleMarker(
+                [13.007811443262298, 77.55465340067576],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_b3c5ae964a810e8cb9eb6f23cfe1ac7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b407179410dc88bf6de9040f7f8a9b1 = $(`<div id="html_5b407179410dc88bf6de9040f7f8a9b1" style="width: 100.0%; height: 100.0%;">          BTP001 - 10th Cross, Dr. Rajkumar Road          <br>          EPI: 25669          </div>`)[0];
+                popup_b3c5ae964a810e8cb9eb6f23cfe1ac7d.setContent(html_5b407179410dc88bf6de9040f7f8a9b1);
+            
+        
+
+        circle_marker_f998be3f3ed72d10939ea859960f7bed.bindPopup(popup_b3c5ae964a810e8cb9eb6f23cfe1ac7d)
+        ;
+
+        
+    
+    
+            var circle_marker_cbcef41485961c324cac87104aa9e3cc = L.circleMarker(
+                [12.973484256997908, 77.550805919489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_e0d66420632b72ff45f5f3ab8f46e5ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_960948019d10319d1d0b452cce7a3c15 = $(`<div id="html_960948019d10319d1d0b452cce7a3c15" style="width: 100.0%; height: 100.0%;">          BTP070 - Cholurpalya Junction, Magadi Road          <br>          EPI: 23831          </div>`)[0];
+                popup_e0d66420632b72ff45f5f3ab8f46e5ec.setContent(html_960948019d10319d1d0b452cce7a3c15);
+            
+        
+
+        circle_marker_cbcef41485961c324cac87104aa9e3cc.bindPopup(popup_e0d66420632b72ff45f5f3ab8f46e5ec)
+        ;
+
+        
+    
+    
+            var circle_marker_ec10599196c55e71e550022fb4cd4064 = L.circleMarker(
+                [12.993087912687146, 77.58818366254266],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_4b2aa153982d381f201f8ab229e25663 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9197d4e918f9b1d4c56bf6f9eb2c15f4 = $(`<div id="html_9197d4e918f9b1d4c56bf6f9eb2c15f4" style="width: 100.0%; height: 100.0%;">          BTP032 - Windsor Circle          <br>          EPI: 23019          </div>`)[0];
+                popup_4b2aa153982d381f201f8ab229e25663.setContent(html_9197d4e918f9b1d4c56bf6f9eb2c15f4);
+            
+        
+
+        circle_marker_ec10599196c55e71e550022fb4cd4064.bindPopup(popup_4b2aa153982d381f201f8ab229e25663)
+        ;
+
+        
+    
+    
+            var circle_marker_27ed357d01a38c58e0758f96195c3aa6 = L.circleMarker(
+                [12.965246043934675, 77.53784328202111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_6bebb70cf0ba4caef7630fcfc225c375 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de62e781a5e5697e25fd5aa0c56ce9e6 = $(`<div id="html_de62e781a5e5697e25fd5aa0c56ce9e6" style="width: 100.0%; height: 100.0%;">          BTP016 - 5th Main Road, RPC Layout          <br>          EPI: 22752          </div>`)[0];
+                popup_6bebb70cf0ba4caef7630fcfc225c375.setContent(html_de62e781a5e5697e25fd5aa0c56ce9e6);
+            
+        
+
+        circle_marker_27ed357d01a38c58e0758f96195c3aa6.bindPopup(popup_6bebb70cf0ba4caef7630fcfc225c375)
+        ;
+
+        
+    
+    
+            var circle_marker_93a3c5c3f5f03cd592d6bb34ddb84241 = L.circleMarker(
+                [12.981175736986302, 77.59845689202544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_cb845067a1ca9c4162fb5a9fd8622a47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b99ab621787b50ef9c29192dbbddae15 = $(`<div id="html_b99ab621787b50ef9c29192dbbddae15" style="width: 100.0%; height: 100.0%;">          BTP042 - Minsk Square Junction (CTO)          <br>          EPI: 19547          </div>`)[0];
+                popup_cb845067a1ca9c4162fb5a9fd8622a47.setContent(html_b99ab621787b50ef9c29192dbbddae15);
+            
+        
+
+        circle_marker_93a3c5c3f5f03cd592d6bb34ddb84241.bindPopup(popup_cb845067a1ca9c4162fb5a9fd8622a47)
+        ;
+
+        
+    
+    
+            var circle_marker_bdeed8178b6bf9fed66127e6124c055b = L.circleMarker(
+                [12.943901209259398, 77.57143116315802],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_0242162b9824f1f67a0bdfdcf1bc898b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f52faf3c99d5331aa69f0ca2d9c6f442 = $(`<div id="html_f52faf3c99d5331aa69f0ca2d9c6f442" style="width: 100.0%; height: 100.0%;">          BTP108 - Tagore Park Junction          <br>          EPI: 17106          </div>`)[0];
+                popup_0242162b9824f1f67a0bdfdcf1bc898b.setContent(html_f52faf3c99d5331aa69f0ca2d9c6f442);
+            
+        
+
+        circle_marker_bdeed8178b6bf9fed66127e6124c055b.bindPopup(popup_0242162b9824f1f67a0bdfdcf1bc898b)
+        ;
+
+        
+    
+    
+            var circle_marker_81a134c1d29e928ff3daf4c951d93f7e = L.circleMarker(
+                [12.966450044406306, 77.57440287238298],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_9d60c8e61f85c5cd43a892c26d7a0719 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98f555dd95776f21d654306a9204d15e = $(`<div id="html_98f555dd95776f21d654306a9204d15e" style="width: 100.0%; height: 100.0%;">          BTP083 - AS Char Street, Mysore Road          <br>          EPI: 16846          </div>`)[0];
+                popup_9d60c8e61f85c5cd43a892c26d7a0719.setContent(html_98f555dd95776f21d654306a9204d15e);
+            
+        
+
+        circle_marker_81a134c1d29e928ff3daf4c951d93f7e.bindPopup(popup_9d60c8e61f85c5cd43a892c26d7a0719)
+        ;
+
+        
+    
+    
+            var circle_marker_701b7d3cc8f12dae2e03bff934858d4f = L.circleMarker(
+                [12.976960576691845, 77.57075523407478],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_1e5365eea585222c3acb4fdf6283cf13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31fe5b5f2b0a801ca45eeb3f6cd6c4de = $(`<div id="html_31fe5b5f2b0a801ca45eeb3f6cd6c4de" style="width: 100.0%; height: 100.0%;">          BTP048 - Shanthala Junction          <br>          EPI: 15989          </div>`)[0];
+                popup_1e5365eea585222c3acb4fdf6283cf13.setContent(html_31fe5b5f2b0a801ca45eeb3f6cd6c4de);
+            
+        
+
+        circle_marker_701b7d3cc8f12dae2e03bff934858d4f.bindPopup(popup_1e5365eea585222c3acb4fdf6283cf13)
+        ;
+
+        
+    
+    
+            var circle_marker_0e03ca4c3407439ba8c8bb8b40fb54cc = L.circleMarker(
+                [12.973430411726868, 77.58124380880751],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3c1eb19a07daf4c2d758336c898ace7d);
+        
+    
+        var popup_2e13426d5ffe31bfb7aeafcf7d501c07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4364213b29099e70317c43b261055275 = $(`<div id="html_4364213b29099e70317c43b261055275" style="width: 100.0%; height: 100.0%;">          BTP038 - Mysore Bank Junction          <br>          EPI: 13402          </div>`)[0];
+                popup_2e13426d5ffe31bfb7aeafcf7d501c07.setContent(html_4364213b29099e70317c43b261055275);
+            
+        
+
+        circle_marker_0e03ca4c3407439ba8c8bb8b40fb54cc.bindPopup(popup_2e13426d5ffe31bfb7aeafcf7d501c07)
+        ;
+
+        
+    
+</script>
+</html>
