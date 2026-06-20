@@ -7,16 +7,16 @@ st.set_page_config(
     layout="wide"
 )
 
-epi = pd.read_csv("epi_hotspots.csv")
-forecast = pd.read_csv("tomorrow_hotspots.csv")
-repeat = pd.read_csv("repeat_offenders.csv")
+epi = pd.read_csv("data/epi_hotspots.csv")
+forecast = pd.read_csv("data/tomorrow_hotspots.csv")
+repeat = pd.read_csv("data/repeat_offenders.csv")
 
 st.sidebar.title("Navigation")
 
 page = st.sidebar.radio(
     "Select Page",
     [
-        "Overview",
+        "Home",
         "Heatmap",
         "Risk Map",
         "EPI Hotspots",
@@ -123,7 +123,7 @@ planner = planner.sort_values(
     "expected_violations",
     ascending=False
 )
-if page == "Overview":
+if page == "Home":
 
     st.title("🚓 Parking Impact Intelligence System")
     st.markdown("""
@@ -150,7 +150,7 @@ elif page == "Heatmap":
     Areas with higher concentration of violations appear as hotspots.
     """)
 
-    with open("parking_heatmap.html", "r", encoding="utf-8") as f:
+    with open("maps/parking_heatmap.html", "r", encoding="utf-8") as f:
         html = f.read()
 
     st.components.v1.html(
@@ -162,7 +162,7 @@ elif page == "Risk Map":
 
     st.title("🗺️ Bangalore Risk Map")
 
-    with open("risk_map.html", "r", encoding="utf-8") as f:
+    with open("maps/risk_map.html", "r", encoding="utf-8") as f:
         html = f.read()
 
     st.components.v1.html(
