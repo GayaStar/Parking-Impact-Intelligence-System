@@ -6,3 +6,4 @@ folium
 streamlit-folium
 catboost
 scikit-learn
+catboost
