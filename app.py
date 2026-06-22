@@ -59,7 +59,8 @@ page = st.sidebar.radio(
         "Forecast",
         "Enforcement Planner",
         "Repeat Offenders",
-        "Live Risk Monitor"
+        "Live Risk Monitor",
+        "Impact Simulator"
     ]
 )
 # =========================
@@ -488,4 +489,87 @@ elif page == "Live Risk Monitor":
             - **Risk Level:** {risk}
             - **Recommended Action:** {recommendation}
             """
+        )
+elif page == "Impact Simulator":
+
+    st.title("🎯 Enforcement Impact Simulator")
+
+    st.markdown("""
+    Simulate the impact of deploying enforcement resources
+    at high-risk parking hotspots.
+    """)
+
+    hotspot = st.selectbox(
+        "Select Hotspot",
+        sorted(
+            forecast["junction_name"].unique()
+        )
+    )
+
+    violations = st.slider(
+        "Expected Violations",
+        0,
+        200,
+        100
+    )
+
+    officers = st.slider(
+        "Additional Officers Deployed",
+        0,
+        5,
+        2
+    )
+
+    if st.button(
+        "Run Simulation",
+        use_container_width=True
+    ):
+
+        reduction = officers * 0.10
+
+        reduction = min(
+            reduction,
+            0.50
+        )
+
+        reduced_violations = int(
+            violations *
+            (1 - reduction)
+        )
+
+        saved = (
+            violations -
+            reduced_violations
+        )
+
+        st.markdown("---")
+
+        c1, c2, c3 = st.columns(3)
+
+        c1.metric(
+            "Current Violations",
+            violations
+        )
+
+        c2.metric(
+            "Projected Violations",
+            reduced_violations,
+            delta=f"-{saved}"
+        )
+
+        c3.metric(
+            "Reduction",
+            f"{round(reduction*100)}%"
+        )
+
+        st.success(
+            f"""
+            Deploying {officers} additional officers at
+            {hotspot} could reduce parking violations
+            from {violations} to {reduced_violations}.
+            """
+        )
+
+        st.info(
+            "This simulation demonstrates how targeted enforcement can improve traffic conditions."
         )
