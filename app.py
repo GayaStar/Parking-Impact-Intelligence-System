@@ -209,9 +209,8 @@ if page == "Home":
     st.title("🚓 Parking Impact Intelligence System")
 
     st.caption(
-        "AI-Driven Detection, Forecasting and Enforcement Planning for Parking-Induced Congestion"
-    )
-
+    "AI-powered platform for detecting parking hotspots, forecasting future violations, and optimizing enforcement deployment."
+)
     st.markdown("---")
 
     c1, c2, c3, c4 = st.columns(4)
@@ -245,10 +244,9 @@ elif page == "Traffic Intelligence Maps":
 
     st.title("🗺️ Traffic Intelligence Center")
 
-    st.markdown("""
-    Unified visualization platform for parking violation analytics,
-    hotspot detection and congestion forecasting.
-    """)
+    st.info(
+    "Interactive geospatial analytics platform for visualizing historical violations, high-risk hotspots, and forecasted congestion zones."
+)
 
     st.markdown("---")
 
@@ -271,7 +269,7 @@ elif page == "Traffic Intelligence Maps":
         c3.metric("Type", "Historical")
 
         st.info(
-            "Historical parking violation density across Bengaluru."
+            "Displays historical parking violation density to identify recurring congestion hotspots across Bengaluru."
         )
 
         with st.expander(
@@ -306,7 +304,7 @@ elif page == "Traffic Intelligence Maps":
         c3.metric("Ranking", "EPI")
 
         st.warning(
-            "Hotspots ranked using Enforcement Priority Index."
+            "Highlights priority enforcement locations ranked using the Enforcement Priority Index (EPI)."
         )
 
         with st.expander(
@@ -335,7 +333,7 @@ elif page == "Traffic Intelligence Maps":
     with tab3:
 
         st.success(
-            "Tomorrow's forecasted parking congestion hotspots."
+            "Visualizes tomorrow's predicted parking violation hotspots using machine learning forecasts."
         )
 
         top_forecast = (
@@ -407,7 +405,7 @@ elif page == "Forecast":
 
     st.title("📈 Tomorrow Risk Forecast")
     st.info(
-    "Predicted parking violation intensity for upcoming high-risk locations."
+    "AI-powered enforcement analytics for resource deployment planning and repeat offender identification."
 )
     fig = px.bar(
         forecast.head(15),
@@ -475,7 +473,7 @@ elif page == "Enforcement Intelligence":
     with tab1:
 
         st.info(
-            "AI-generated enforcement deployment recommendations."
+            "Generates officer deployment recommendations based on predicted violations and hotspot severity."
         )
 
         c1, c2, c3 = st.columns(3)
@@ -523,7 +521,7 @@ elif page == "Enforcement Intelligence":
     with tab2:
 
         st.warning(
-            "Vehicles with repeated parking violations."
+            "Identifies vehicles with recurring parking violations that contribute disproportionately to congestion."
         )
 
         fig = px.bar(
