@@ -19,14 +19,13 @@ st.markdown("""
     padding-bottom: 1rem;
 }
 
-[data-testid="stMetric"] {
-    background: #1E293B;
-    border: 1px solid #334155;
-    border-radius: 15px;
-    padding: 15px;
-    text-align: center;
+[data-testid="stMetric"]{
+background:#16213E;
+border:1px solid #2E4F7A;
+border-radius:18px;
+padding:20px;
+box-shadow:0px 4px 15px rgba(0,0,0,0.3);
 }
-
 h1 {
     color: #F8FAFC;
 }
@@ -53,16 +52,59 @@ page = st.sidebar.radio(
     "Select Page",
     [
         "Home",
-        "Heatmap",
-        "Risk Map",
-        "EPI Hotspots",
-        "Forecast",
-        "Enforcement Planner",
-        "Repeat Offenders",
+        "Traffic Intelligence Maps",
+        "Enforcement Intelligence",
         "Live Risk Monitor",
-        "Impact Simulator"
+        "Impact Simulator",
+        "Model Health Monitor"  
     ]
 )
+st.markdown("""
+<style>
+
+/* Sidebar navigation cards */
+
+div[role="radiogroup"] > label {
+
+    width: 100% !important;
+    min-height: 70px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+
+    border-radius: 12px !important;
+
+    text-align: center !important;
+
+    white-space: normal !important;
+    word-wrap: break-word !important;
+
+    background: #1E293B;
+    border: 1px solid #334155;
+}
+
+/* Hover */
+
+div[role="radiogroup"] > label:hover {
+
+    background: #2563EB;
+    border-color: #60A5FA;
+}
+
+/* Selected */
+
+div[role="radiogroup"] > label:has(input:checked) {
+
+    background: #2563EB;
+    border-color: #60A5FA;
+}
+
+</style>
+""", unsafe_allow_html=True)
 # =========================
 # CREATE ENFORCEMENT TABLE
 # =========================
@@ -199,53 +241,148 @@ if page == "Home":
     st.markdown("""
     Parking Violations → Hotspot Detection → Risk Analysis → Forecasting → EPI Scoring → Enforcement Recommendations
     """)
-elif page == "Heatmap":
+elif page == "Traffic Intelligence Maps":
 
-    st.title("Parking Violation Density Analysis")
+    st.title("🗺️ Traffic Intelligence Center")
 
-    st.info(
-        "This heatmap visualizes historical parking violation concentration across Bengaluru."
-    )
-
-    c1, c2, c3 = st.columns(3)
-
-    c1.metric("Records", "298K+")
-    c2.metric("Locations", "10,942")
-    c3.metric("Junctions", "169")
-
-    st.markdown("---")
-    with open("maps/parking_heatmap.html", "r", encoding="utf-8") as f:
-        html = f.read()
-
-    st.components.v1.html(
-        html,
-        height=700,
-        scrolling=True
-    )
-elif page == "Risk Map":
-
-    st.title("🗺️ High Risk Congestion Hotspots")
-
-    st.warning(
-        "Locations ranked using Enforcement Priority Index (EPI)."
-    )
-
-    c1, c2, c3 = st.columns(3)
-
-    c1.metric("Critical Hotspots", "10")
-    c2.metric("High Risk Zones", "20")
-    c3.metric("Forecast Enabled", "Yes")
+    st.markdown("""
+    Unified visualization platform for parking violation analytics,
+    hotspot detection and congestion forecasting.
+    """)
 
     st.markdown("---")
 
-    with open("maps/risk_map.html", "r", encoding="utf-8") as f:
-        html = f.read()
+    tab1, tab2, tab3 = st.tabs([
+        "🔥 Violation Heatmap",
+        "🚨 Risk Hotspots",
+        "📈 Forecast Intelligence"
+    ])
 
-    st.components.v1.html(
-        html,
-        height=700,
-        scrolling=True
-    )
+    # ==================================
+    # HEATMAP
+    # ==================================
+
+    with tab1:
+
+        c1, c2, c3 = st.columns(3)
+
+        c1.metric("Records", "298K+")
+        c2.metric("Coverage", "Bengaluru")
+        c3.metric("Type", "Historical")
+
+        st.info(
+            "Historical parking violation density across Bengaluru."
+        )
+
+        with st.expander(
+            "🔥 Click to View Heatmap",
+            expanded=False
+        ):
+
+            with open(
+                "maps/parking_heatmap.html",
+                "r",
+                encoding="utf-8"
+            ) as f:
+
+                html = f.read()
+
+            st.components.v1.html(
+                html,
+                height=850,
+                scrolling=True
+            )
+
+    # ==================================
+    # RISK MAP
+    # ==================================
+
+    with tab2:
+
+        c1, c2, c3 = st.columns(3)
+
+        c1.metric("Critical Hotspots", "10")
+        c2.metric("High Risk Zones", "20")
+        c3.metric("Ranking", "EPI")
+
+        st.warning(
+            "Hotspots ranked using Enforcement Priority Index."
+        )
+
+        with st.expander(
+            "🚨 Click to View Risk Map",
+            expanded=False
+        ):
+
+            with open(
+                "maps/risk_map.html",
+                "r",
+                encoding="utf-8"
+            ) as f:
+
+                html = f.read()
+
+            st.components.v1.html(
+                html,
+                height=850,
+                scrolling=True
+            )
+
+    # ==================================
+    # FORECAST
+    # ==================================
+
+    with tab3:
+
+        st.success(
+            "Tomorrow's forecasted parking congestion hotspots."
+        )
+
+        top_forecast = (
+            forecast
+            .sort_values(
+                "expected_violations",
+                ascending=False
+            )
+            .head(10)
+        )
+
+        fig = px.bar(
+            top_forecast,
+            x="junction_name",
+            y="expected_violations",
+            color="expected_violations",
+            title="Forecasted Hotspots"
+        )
+
+        st.plotly_chart(
+            fig,
+            use_container_width=True
+        )
+
+        st.dataframe(
+            top_forecast,
+            use_container_width=True
+        )
+        st.markdown("""
+<style>
+
+button[data-baseweb="tab"] {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 20px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 60px;
+}
+
+</style>
+""", unsafe_allow_html=True)
 elif page == "EPI Hotspots":
 
     st.title("🔥 Enforcement Priority Index")
@@ -287,53 +424,125 @@ elif page == "Forecast":
     st.dataframe(
         forecast.head(20)
     )
-elif page == "Enforcement Planner":
+elif page == "Enforcement Intelligence":
 
-    st.title(
-        "🚓 Enforcement Planner"
-    )
+    st.title("🚓 Enforcement Intelligence Center")
 
     st.markdown("""
-    AI-generated enforcement deployment
-    recommendations based on forecasted
-    parking violations and hotspot risk.
+    Unified enforcement analytics including deployment planning
+    and repeat offender identification.
     """)
 
-    st.dataframe(
-        planner[
-            [
-                "junction_name",
-                "expected_violations",
-                "EPI",
-                "risk",
-                "recommendation",
-                "reason"
-            ]
-        ].head(20),
-        use_container_width=True
-    )
-elif page == "Repeat Offenders":
+    st.markdown("---")
 
-    st.title("🚨 Repeat Offenders")
-    st.warning(
-    "Vehicles with repeated parking violations requiring targeted enforcement."
-)
+    tab1, tab2 = st.tabs([
+        "🚓 Deployment Planner",
+        "🚨 Repeat Offenders"
+    ])
+    st.markdown("""
+<style>
 
-    fig = px.bar(
-        repeat.head(20),
-        x="vehicle_number",
-        y="violations",
-        color="violations"
-    )
+/* Make tabs occupy full width */
 
-    st.plotly_chart(
-        fig,
-        use_container_width=True
-    )
+.stTabs [data-baseweb="tab-list"] {
+    display: flex;
+    width: 100%;
+}
 
-    st.dataframe(
-        repeat.head(20)
-    )
+.stTabs [data-baseweb="tab"] {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+}
+
+/* Selected tab */
+
+.stTabs [aria-selected="true"] {
+    background-color: #1E293B;
+    border-radius: 10px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+    # ==================================
+    # DEPLOYMENT PLANNER
+    # ==================================
+
+    with tab1:
+
+        st.info(
+            "AI-generated enforcement deployment recommendations."
+        )
+
+        c1, c2, c3 = st.columns(3)
+
+        c1.metric(
+            "High Risk Locations",
+            len(
+                planner[
+                    planner["risk"] == "HIGH"
+                ]
+            )
+        )
+
+        c2.metric(
+            "Medium Risk Locations",
+            len(
+                planner[
+                    planner["risk"] == "MEDIUM"
+                ]
+            )
+        )
+
+        c3.metric(
+            "Recommendations",
+            len(planner)
+        )
+
+        st.dataframe(
+            planner[
+                [
+                    "junction_name",
+                    "expected_violations",
+                    "EPI",
+                    "risk",
+                    "recommendation"
+                ]
+            ].head(20),
+            use_container_width=True
+        )
+
+    # ==================================
+    # REPEAT OFFENDERS
+    # ==================================
+
+    with tab2:
+
+        st.warning(
+            "Vehicles with repeated parking violations."
+        )
+
+        fig = px.bar(
+            repeat.head(15),
+            x="vehicle_number",
+            y="violations",
+            color="violations",
+            title="Top Repeat Offenders"
+        )
+
+        st.plotly_chart(
+            fig,
+            use_container_width=True
+        )
+
+        st.dataframe(
+            repeat.head(20),
+            use_container_width=True
+        )
 elif page == "Live Risk Monitor":
 
     st.title("🚨 Live Risk Monitor")
@@ -573,3 +782,109 @@ elif page == "Impact Simulator":
         st.info(
             "This simulation demonstrates how targeted enforcement can improve traffic conditions."
         )
+elif page == "Model Health Monitor":
+
+    st.title("🧠 Model Health Monitor")
+
+    st.markdown("""
+    Monitor model performance and detect changes in parking
+    violation patterns that may require retraining.
+    """)
+
+    st.markdown("---")
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    c1.metric(
+        "Model Version",
+        "v1.0"
+    )
+
+    c2.metric(
+        "Last Training",
+        "Apr 2024"
+    )
+
+    c3.metric(
+        "Training Records",
+        "298K"
+    )
+
+    c4.metric(
+        "Current Status",
+        "Active"
+    )
+
+    st.markdown("---")
+
+    st.subheader("Incoming Weekly Data")
+
+    new_records = st.slider(
+        "New Violation Records Received",
+        0,
+        50000,
+        12000
+    )
+
+    pattern_change = st.slider(
+        "Change in Violation Pattern (%)",
+        0,
+        100,
+        15
+    )
+
+    st.markdown("---")
+
+    if pattern_change >= 30:
+
+        st.error("""
+        ⚠ Significant Data Drift Detected
+
+        Parking behaviour has changed substantially.
+        Model retraining is recommended.
+        """)
+
+        st.subheader("Recommended Actions")
+
+        st.markdown("""
+        - Retrain Forecasting Model
+        - Refresh Hotspot Rankings
+        - Recalculate EPI Scores
+        - Update Enforcement Recommendations
+        """)
+
+    elif pattern_change >= 15:
+
+        st.warning("""
+        Moderate pattern shift detected.
+
+        Continue monitoring incoming data.
+        """)
+
+    else:
+
+        st.success("""
+        Model performance is stable.
+
+        No retraining required.
+        """)
+
+    st.markdown("---")
+
+    st.subheader("Continuous Learning Framework")
+
+    st.markdown("""
+    New Violation Data  
+    ↓  
+    Data Validation  
+    ↓  
+    Drift Detection  
+    ↓  
+    Model Retraining  
+    ↓  
+    Forecast Update  
+    ↓  
+    EPI Recalculation  
+    ↓  
+    Dashboard Refresh
+    """)
